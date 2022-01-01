@@ -1,11 +1,8 @@
 import type { NextPage } from "next";
+import NftDetails from "../components/NftDetails/NftDetails";
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
-  );
+  return <NftDetails />;
 };
 
 export default Home;

@@ -1,14 +1,35 @@
 import GlobalStyles from "../../styles/GlobalStyles";
 import { ThemeProvider } from "styled-components";
 import { darkTheme } from "../../styles/GlobalStyles";
+import {
+  StyledLayout,
+  StyledTopBackground,
+  StyledMiddleBackground,
+  StyledBottomBackground,
+  StyledBackground,
+} from "./styledComponents";
+import Notification from "../Global/Notification";
+import { useContext } from "react";
+import NotificationContext from "../../store/notification-context";
 
 export default function Layout({ children }: { children: any }) {
+  const notifCtx = useContext(NotificationContext);
+  const activeNotification = notifCtx.notification;
+
   return (
     <>
-      <ThemeProvider theme={darkTheme}>
-        <GlobalStyles />
-        {children}
-      </ThemeProvider>
+      <StyledLayout>
+        <ThemeProvider theme={darkTheme}>
+          <GlobalStyles />
+          {children}
+        </ThemeProvider>
+        {activeNotification && <Notification message={activeNotification} />}
+      </StyledLayout>
+      <StyledBackground>
+        <StyledTopBackground />
+        <StyledMiddleBackground />
+        <StyledBottomBackground />
+      </StyledBackground>
     </>
   );
 }

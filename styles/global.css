@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Causten";
+  src: url("../assets/font/caustenRegular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Causten";
+  src: url("../assets/font/caustenMedium.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Causten";
+  src: url("../assets/font/caustenBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Causten";
+  src: url("../assets/font/caustenExtraBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 900;
+}
