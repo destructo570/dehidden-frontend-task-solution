@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledImageButton = styled.button`
   padding: 0.6em 1.6em;
-  margin: 1em 0;
+  margin-top: 1em;
   font-family: "Causten";
   font-size: 1.2rem;
   font-weight: 700;
