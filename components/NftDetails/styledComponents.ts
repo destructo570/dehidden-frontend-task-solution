@@ -198,6 +198,7 @@ export const StyledNftInfoDescription = styled.div`
 export const StyledNftInfoDetails = styled.div`
   ${slideInAnimation}
   display: grid;
+  grid-gap: 1em;
   grid-template-columns: 1fr 1fr;
   align-content: space-around;
   justify-content: space-between;
