@@ -210,6 +210,14 @@ export const StyledNftInfoDetails = styled.div`
   border-radius: 16px;
 `;
 
+export const StyledInfoWrapper = styled.div`
+  //Set min height on wrapper to avoid content jumping
+  min-height: 500px;
+
+  @media (min-width: ${({ theme }) => theme.layout.medium.media}) {
+    min-height: 0;
+  }
+`;
 export const StyledMoreInfo = styled.div`
   display: flex;
   align-items: center;

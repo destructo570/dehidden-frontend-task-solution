@@ -10,6 +10,7 @@ import {
   StyledNftInfoDescription,
   StyledNftInfoDetails,
   StyledMoreInfo,
+  StyledInfoWrapper,
 } from "./styledComponents";
 
 const NftInfo: React.FC<{ data: NftInfoObject; onAbout: () => void }> = (
@@ -96,8 +97,10 @@ const NftInfo: React.FC<{ data: NftInfoObject; onAbout: () => void }> = (
         <p onClick={descriptionHandler}>Description</p>
         <p onClick={detailsHandler}>Details</p>
       </StyledNftInfoSections>
-      {isDescription && descriptionSection}
-      {!isDescription && nftDetailsSection}
+      <StyledInfoWrapper>
+        {isDescription && descriptionSection}
+        {!isDescription && nftDetailsSection}
+      </StyledInfoWrapper>
     </StyledNftInfo>
   );
 };
