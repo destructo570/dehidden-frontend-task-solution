@@ -23,8 +23,8 @@ const StyledNftUtilityItem = styled.li`
 
 const StyledNftUtilityImage = styled.div`
   background-color: rgba(85, 83, 83, 0.3);
-  height: 100px;
-  width: 100px;
+  min-height: 100px;
+  min-width: 100px;
   display: flex;
   border-radius: 16px;
   align-items: center;
