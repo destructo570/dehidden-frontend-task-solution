@@ -17,9 +17,10 @@ const NftPreviewCard: React.FC<{
   const openSeaHandler = () => {
     Object.assign(document.createElement("a"), {
       target: "_blank",
-      href: "https://www.google.com",
+      href: `${props.openseaUrl}`,
     }).click();
   };
+
   let action = (
     <ImageButton title="About" onClick={props.onAbout}>
       <img src={infoIcon.src} alt="" />

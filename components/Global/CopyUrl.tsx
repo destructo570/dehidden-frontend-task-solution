@@ -4,7 +4,7 @@ import copyIcon from "../../assets/icons/vector/copy-icon.svg";
 
 const StyledCopyUrl = styled.div`
   display: flex;
-  align-self: center;
+
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 40px;
   max-height: 50px;
@@ -19,8 +19,8 @@ const StyledCopyUrl = styled.div`
   }
 
   button {
-    align-self: center;
     max-width: 200px;
+    margin: 0;
   }
   button p {
     margin-left: 0em;
