@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledLayout = styled.main`
-  padding: 6em 1.6em;
+  padding: 6em 1.2em;
   z-index: 100;
   position: relative;
   @media (min-width: 768px) {

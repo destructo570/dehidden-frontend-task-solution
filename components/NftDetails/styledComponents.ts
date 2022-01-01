@@ -37,7 +37,7 @@ export const StyledNftDetailsHeader = styled.header`
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   left: 0px;
-  padding: 0 1.6em;
+  padding: 0 1.2em;
   z-index: 100;
 
   #shareUrlComp {
@@ -46,7 +46,7 @@ export const StyledNftDetailsHeader = styled.header`
 
   @media (min-width: ${({ theme }) => theme.layout.medium.media}) {
     background-color: transparent;
-    padding: 0.8em 1.6em;
+    padding: 0.8em 1.2em;
 
     #shareButton {
       display: none;
@@ -83,7 +83,7 @@ export const StyledLogo = styled.div`
 
 export const StyledNftPreviewCard = styled.section`
   ${slideInAnimation}
-  padding: 2em;
+  padding: 1.6em;
   display: flex;
   flex-direction: column;
   justify-content: center;
