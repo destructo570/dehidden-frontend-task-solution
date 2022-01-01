@@ -36,9 +36,11 @@ const NftPreviewCard: React.FC<{
   return (
     <StyledNftPreviewCard>
       <img src={NftImage.src} alt="" />
-      <h3>{props.collection}</h3>
-      <h1>{props.title}</h1>
-      <h2>{generateNftMintNumber(props.mintNumber)}</h2>
+      <div>
+        <h3>{props.collection}</h3>
+        <h1>{props.title}</h1>
+        <h2>{generateNftMintNumber(props.mintNumber)}</h2>
+      </div>
       {action}
     </StyledNftPreviewCard>
   );

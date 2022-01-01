@@ -85,12 +85,14 @@ export const StyledNftPreviewCard = styled.section`
   ${slideInAnimation}
   padding: 1.6em;
   display: flex;
+
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   min-height: 500px;
   border-radius: 16px;
   background-color: rgba(255, 255, 255, 0.15);
+  text-align: center;
 
   img {
     width: 100%;
@@ -114,6 +116,7 @@ export const StyledNftPreviewCard = styled.section`
   @media (min-width: ${({ theme }) => theme.layout.medium.media}) {
     border-radius: 0;
     height: 100vh;
+    justify-content: center;
 
     img {
       max-width: 400px;
