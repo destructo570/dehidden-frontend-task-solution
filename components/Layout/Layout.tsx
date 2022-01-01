@@ -25,11 +25,6 @@ export default function Layout({ children }: { children: any }) {
         </ThemeProvider>
         {activeNotification && <Notification message={activeNotification} />}
       </StyledLayout>
-      <StyledBackground>
-        <StyledTopBackground />
-        <StyledMiddleBackground />
-        <StyledBottomBackground />
-      </StyledBackground>
     </>
   );
 }
