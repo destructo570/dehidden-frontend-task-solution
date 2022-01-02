@@ -43,7 +43,11 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
 }
 
-.noSelect {
+input,
+textarea,
+button,
+select,
+a {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -52,7 +56,7 @@ const GlobalStyles = createGlobalStyle`
     -ms-user-select: none;
     user-select: none;
 }
-.noSelect:focus {
+*:focus {
     outline: none !important;
 }
 
