@@ -14,10 +14,11 @@ const NftPreviewCard: React.FC<{
   mintNumber: string;
   openseaUrl: string;
 }> = (props) => {
-  const openSeaHandler = () => {
+  const openSeaHandler = (url: string) => {
+    //Create a virtual link and click on it
     Object.assign(document.createElement("a"), {
       target: "_blank",
-      href: `${props.openseaUrl}`,
+      href: `${url}`,
     }).click();
   };
 
@@ -29,7 +30,10 @@ const NftPreviewCard: React.FC<{
 
   if (!props.isUtility) {
     action = (
-      <ImageButton title="View on opensea" onClick={openSeaHandler}>
+      <ImageButton
+        title="View on opensea"
+        onClick={openSeaHandler.bind(null, props.openseaUrl)}
+      >
         <img src={openSeaIcon.src} alt="" />
       </ImageButton>
     );
