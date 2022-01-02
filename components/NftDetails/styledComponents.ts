@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const slideInAnimation = `
+export const slideInAnimation = `
 animation: fadeInAnimation ease 0.4s;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;

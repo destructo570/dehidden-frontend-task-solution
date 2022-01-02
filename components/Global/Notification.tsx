@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const StyledNotification = styled.div`
+
   position: fixed;
   bottom: 0px;
   left: 0px;
@@ -9,6 +10,21 @@ const StyledNotification = styled.div`
   justify-content: center;
   margin: 1em 0;
   z-index: 200;
+  //Slide in animation
+  animation: fadeInAnimation ease 0.25s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
 
   p {
     font-family: "Causten";
