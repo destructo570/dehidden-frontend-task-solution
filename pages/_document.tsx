@@ -40,13 +40,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          {/* Step 5: Output the styles in the head  */}
-          {
-            // @ts-ignore
-            this.props.styleTags
-          }
-        </Head>
+        <Head></Head>
         <body>
           <Main />
           <NextScript />
