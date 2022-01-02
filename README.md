@@ -2,7 +2,7 @@
  Solution to the frontend task given for the internship at Dehidden.
  
  Checkout the live preview here:
- [Live Preview](www.google.com)
+ [Live Preview](https://dehidden-frontend-task-solution.vercel.app/)
  
  
  Steps to run this on your machine
