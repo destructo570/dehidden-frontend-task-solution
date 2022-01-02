@@ -96,6 +96,7 @@ export const StyledNftPreviewCard = styled.section`
 
   img {
     width: 100%;
+    max-width: 450px;
   }
 
   h1 {
@@ -119,7 +120,7 @@ export const StyledNftPreviewCard = styled.section`
     justify-content: center;
 
     img {
-      max-width: 400px;
+      max-width: 333px;
     }
   }
 `;
@@ -129,7 +130,7 @@ export const StyledNftUtilities = styled.section`
   margin-top: 2em;
 
   @media (min-width: ${({ theme }) => theme.layout.medium.media}) {
-      margin-top: 14em;
+      margin-top: 12em;
       margin-left: 2em;
       margin-right: 2em;
     }
