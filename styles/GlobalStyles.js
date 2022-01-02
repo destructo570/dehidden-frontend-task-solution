@@ -43,6 +43,12 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
 }
 
+*:focus {
+    outline: 0 !important;
+}
+
+background-color: ${({ theme }) => theme.color.darkCardBgColor};
+
 img{
   max-width: 100%;
 }
