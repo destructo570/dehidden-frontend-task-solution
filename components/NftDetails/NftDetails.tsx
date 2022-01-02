@@ -6,6 +6,7 @@ import { DummyNftInfo } from "../../dummyData/data";
 import { StyledNftDetails } from "./styledComponents";
 import { useFetch } from "../hooks/useFetch";
 import { useState } from "react";
+import Head from "next/head";
 
 const NftDetails = () => {
   const { data, loading, error } = useFetch<{ url: string }>(
@@ -31,6 +32,12 @@ const NftDetails = () => {
 
   return (
     <StyledNftDetails>
+      <Head>
+        <Head>
+          <title>Dehidden</title>
+          <meta name="description" content="Shards of eth - Power Up"></meta>
+        </Head>
+      </Head>
       <NftDetailsHeader shareUrl={shareUrl} />
       <NftPreviewCard
         onAbout={aboutHandler}
