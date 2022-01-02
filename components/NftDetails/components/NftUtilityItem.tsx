@@ -4,9 +4,14 @@ import styled from "styled-components";
 const StyledNftUtilityItem = styled.li`
   background-color: ${({ theme }) => theme.color.darkCardBgColor};
   border-radius: 24px;
+  transition: background-color 0.5s;
 
   & + & {
     margin-top: 1em;
+  }
+
+  &:hover{
+    background-color: rgba(0,0,0,0.4)};
   }
 
   a {
