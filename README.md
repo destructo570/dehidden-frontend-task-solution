@@ -4,11 +4,6 @@
  Checkout the live preview here:
  [Live Preview](https://dehidden-frontend-task-solution.vercel.app/)
  
- 
- Steps to run this on your machine
- 
- 1. Download and extract the code
- 
  ## Installation
 
         npm install
