@@ -7,7 +7,7 @@
  
  Steps to run this on your machine
  
- 1. Download and extract the code ann in the root folder run
+ 1. Download and extract the code and in the root folder run
  
  2. Open terminal in root directory and install all dependecies using this command
 
