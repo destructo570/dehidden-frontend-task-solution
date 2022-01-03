@@ -9,17 +9,17 @@
  
  1. Download and extract the code
  
- 2. Open terminal in root directory and install all dependecies using this command
+ ## Installation
 
         npm install
         
 
-3. Start the dev server by running this command
+## Dev Server
     
         npm run dev
         
 
-4. Now you can go to http://localhost:3000/ to see the app live
+### Now you can go to http://localhost:3000/ to see the app live
 
 ## TechStack : 
 
