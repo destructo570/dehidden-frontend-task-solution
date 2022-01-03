@@ -4,7 +4,7 @@ import NftUtilities from "./NftUtilities";
 import NftInfo from "./NftInfo";
 import { DummyNftInfo } from "../../dummyData/data";
 import { StyledNftDetails } from "./styledComponents";
-import { useFetch } from "../hooks/useFetch";
+import { useFetch } from "../../hooks/useFetch";
 import { useState } from "react";
 import Head from "next/head";
 
