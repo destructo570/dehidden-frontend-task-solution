@@ -90,7 +90,7 @@ export const StyledNftPreviewCard = styled.section`
   justify-content: space-between;
   align-items: center;
   min-height: 500px;
-  border-radius: 16px;
+  border-radius: 24px;
   background-color: rgba(255, 255, 255, 0.15);
   text-align: center;
 
